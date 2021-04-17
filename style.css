@@ -25,7 +25,8 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
 }
 
 .image {
@@ -38,29 +39,64 @@ body {
     grid-column: span 6;
     background-color: hsl(263, 55%, 52%);
 }
+.box1 .headline {
+    color: hsl(210, 46%, 95%);
+}
+.box1 .user .user-id .name {
+    color: hsl(210, 46%, 95%);
+}
+
 .box2 {
     grid-column: span 3;
     background-color: hsl(217, 19%, 35%);
 }
+.box2 .headline {
+    color: hsl(210, 46%, 95%);
+}
+.box2 .user .user-id .name {
+    color: hsl(210, 46%, 95%);
+}
+
 .box3 {
     grid-column: span 3;
     background-color: hsl(0, 0%, 100%);
 }
+.box3 .headline {
+    color: hsl(217, 19%, 35%);
+}
+.box3 .user .user-id .name {
+    color: hsl(217, 19%, 35%);
+}
+
 .box4 {
     grid-column: span 6;
     background-color: hsl(219, 29%, 14%);
 }
+.box4 .headline {
+    color: hsl(210, 46%, 95%);
+}
+.box4 .user .user-id .name {
+    color: hsl(210, 46%, 95%);
+}
+
 .box5 {
     grid-column: 10 / span 3;
     grid-row: 1 / span 2;
     background-color: hsl(0, 0%, 100%);
 }
+.box5 .headline {
+    color: hsl(217, 19%, 35%);
+}
+.box5 .user .user-id .name {
+    color: hsl(217, 19%, 35%);
+}
 
 .user {
     display: flex;
 }
-.user .name {
+.user .user-id {
     padding-left: 15px;
+    color: hsl(0, 0%, 81%);
 }
 
 .design {
@@ -69,9 +105,10 @@ body {
     border-radius: 10px;
 }
 .design .headline {
-    font-size: 1.2rem;
-    margin: 10px 0;
+    font-size: 1.1rem;
+    margin: 15px 0;
 }
 .design .text {
     line-height: 1.5;
+    color: hsl(0, 0%, 81%);
 }
