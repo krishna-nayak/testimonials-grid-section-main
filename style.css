@@ -17,7 +17,7 @@ body {
 .container {
     background-color: antiquewhite;
     width: 80%;
-    height: 70vh;
+    min-height: 70vh;
 }
 
 .grid-container {
@@ -53,8 +53,4 @@ body {
     margin: 15px;
     padding: 25px;
     background-color: aquamarine;
-}
-
-.design * {
-    padding-top: 10px;
 }
