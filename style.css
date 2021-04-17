@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    font-family: sans-serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
     font-size: 13px;
     font-weight: 500;
     display: flex;
@@ -16,8 +16,9 @@ body {
     background-color: hsl(210, 46%, 95%);
 }
 .container {
-    width: 80%;
-    padding: 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px 150px;
 }
 
 .grid-container {
@@ -36,6 +37,9 @@ body {
 }
 
 .box1 {
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position-x: 80%;
     grid-column: span 6;
     background-color: hsl(263, 55%, 52%);
 }
@@ -43,7 +47,7 @@ body {
     color: hsl(210, 46%, 95%);
 }
 .box1 .user .user-id .name {
-    color: hsl(210, 46%, 95%);
+    color: rgba(236, 242, 248, 0.7);
 }
 
 .box2 {
@@ -54,7 +58,7 @@ body {
     color: hsl(210, 46%, 95%);
 }
 .box2 .user .user-id .name {
-    color: hsl(210, 46%, 95%);
+    color: rgb(236, 242, 248, 0.7);
 }
 
 .box3 {
@@ -65,7 +69,7 @@ body {
     color: hsl(217, 19%, 35%);
 }
 .box3 .user .user-id .name {
-    color: hsl(217, 19%, 35%);
+    color: rgba(72, 85, 106, 0.7);
 }
 
 .box4 {
@@ -76,7 +80,7 @@ body {
     color: hsl(210, 46%, 95%);
 }
 .box4 .user .user-id .name {
-    color: hsl(210, 46%, 95%);
+    color: rgba(236, 242, 248, 0.7);
 }
 
 .box5 {
@@ -88,7 +92,7 @@ body {
     color: hsl(217, 19%, 35%);
 }
 .box5 .user .user-id .name {
-    color: hsl(217, 19%, 35%);
+    color: rgba(72, 85, 106, 0.7);
 }
 
 .user {
@@ -96,7 +100,7 @@ body {
 }
 .user .user-id {
     padding-left: 15px;
-    color: hsl(0, 0%, 81%);
+    color: rgba(207, 207, 207, 0.5);
 }
 
 .design {
@@ -105,7 +109,7 @@ body {
     border-radius: 10px;
 }
 .design .headline {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     margin: 15px 0;
 }
 .design .text {
