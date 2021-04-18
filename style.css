@@ -116,3 +116,39 @@ body {
     line-height: 1.5;
     color: hsl(0, 0%, 81%);
 }
+
+/* Media Query */
+@media only screen and (max-width: 1224px) {
+    .container {
+        padding: 10px 50px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .grid-container {
+        grid-auto-rows: auto;
+    }
+    .box2 {
+        grid-column: span 6;
+    }
+    .box3 {
+        grid-column: span 6;
+    }
+    .box5 {
+        grid-row: auto;
+        grid-column: auto / span 12;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .container {
+        padding: 30px 15px;
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        grid-column: span 12;
+    }
+}
