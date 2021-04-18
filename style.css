@@ -107,6 +107,7 @@ body {
     height: auto;
     padding: 25px;
     border-radius: 10px;
+    box-shadow: 15px 4px 10px rgba(207, 207, 207, 0.3);
 }
 .design .headline {
     font-size: 1.25rem;
